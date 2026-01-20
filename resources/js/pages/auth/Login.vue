@@ -21,11 +21,14 @@ defineProps<{
 </script>
 
 <template>
+
+
     <AuthBase
-        title="Log in to your account"
+        title="Welcome back"
         description="Enter your email and password below to log in"
     >
         <Head title="Log in" />
+
 
         <div
             v-if="status"
